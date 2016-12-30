@@ -24,6 +24,12 @@ To run the test suite, run tests/run.sml or tests/run.mlb.
 An implementation of Wadler's prettier printer with some additional
 primitives such as WEAKBREAK and ALIGN.
 
+### [PrettyPrintParser](pretty-print-parser.sml)
+
+A parser for a serialized format of PrettyPrintEngine.doc as a way of
+its concise construction.  It also provides a DSL that allows users
+to embed ML values in documents.  It depends on PrettyPrintEngine.
+
 ### [UnitTest](unit-test.sml)
 
 A simple framework for unit testing.
