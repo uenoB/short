@@ -1,7 +1,9 @@
 local
 $(SML_LIB)/basis/basis.mlb
 ../unit-test.sml
+../pretty-print-engine.sml
 test-list.sml
+test-pretty-print-engine.sml
 in
 call-main.sml
 end

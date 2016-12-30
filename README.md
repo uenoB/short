@@ -19,6 +19,11 @@ To run the test suite, run tests/run.sml or tests/run.mlb.
 
 ## Catalogue of Short Pieces ##
 
+### [PrettyPrintEngine](pretty-print-engine.sml)
+
+An implementation of Wadler's prettier printer with some additional
+primitives such as WEAKBREAK and ALIGN.
+
 ### [UnitTest](unit-test.sml)
 
 A simple framework for unit testing.
