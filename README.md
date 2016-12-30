@@ -34,3 +34,10 @@ to embed ML values in documents.  It depends on PrettyPrintEngine.
 
 A simple framework for unit testing.
 See tests/test-list.sml for an example of testing with UnitTest.
+
+### [WordPatriciaMap](word-patricia-map.sml)
+
+An implementation of the big-endian integer patricia tree proposed by
+Okasaki et al, which is an alternative to IntBinaryMap in SML/NJ library.
+In comparison to IntBinaryMap, unionWith is quite faster but lookup is
+slightly slower.
