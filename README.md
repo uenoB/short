@@ -16,3 +16,9 @@ and bench/ directory, respectively.  The test suite would also be
 useful for users to understand the usage of the libraries.
 
 To run the test suite, run tests/run.sml or tests/run.mlb.
+
+## Catalogue of Short Pieces ##
+
+### [UnitTest](unit-test.sml)
+
+A simple framework for unit testing.

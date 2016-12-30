@@ -1,0 +1,6 @@
+local
+$(SML_LIB)/basis/basis.mlb
+../unit-test.sml
+in
+call-main.sml
+end
