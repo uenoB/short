@@ -1,6 +1,7 @@
 local
 $(SML_LIB)/basis/basis.mlb
 ../unit-test.sml
+test-list.sml
 in
 call-main.sml
 end

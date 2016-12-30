@@ -22,3 +22,4 @@ To run the test suite, run tests/run.sml or tests/run.mlb.
 ### [UnitTest](unit-test.sml)
 
 A simple framework for unit testing.
+See tests/test-list.sml for an example of testing with UnitTest.
