@@ -37,8 +37,8 @@
  * - "+" menas BREAK " ".
  * - "\n" means NEWLINE.
  * - "\\c" is escape sequence of c.
- * - A substring enclosed with "{" and "}" is a block.  A block may be
- *   followed by multiple marks that indicate kinds of the block.
+ * - A substring enclosed with "{" and "}" is a block.  A block have zero or
+ *   more marks, each of which indicates a kind of the block.
  *   A mark is either "@" (GROUP), "@!" (ALIGN), "@," (SEQ), "@2" (INDENT 2),
  *   "@L2" (ASSOC ((L,2),"(",")",...)), or "@!L2" (ASSOC ((L,2),"","",...)).
  *   If a block has either no mark or only ASSOC marks, the block has ALIGN
