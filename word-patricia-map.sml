@@ -84,9 +84,9 @@ sig
   val existsi : (key * 'a -> bool) -> 'a map -> bool
   val all : ('a -> bool) -> 'a map -> bool
   val alli : (key * 'a -> bool) -> 'a map -> bool
+(*
   (* for debug *)
   val dump : int map -> unit
-(*
 *)
 end
 
